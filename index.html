@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Functions em JavaScript</title>
+
+		<!-- Inclui o arquivo CSS Externo -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<!-- Inclui arquivo JavaScript(Interno) -->
+		<!--<script>
+			alert("JavaScript Interno.");
+		</script>-->
+
+		<!-- Inclui o arquivo JavaScript(Externo) -->
+		<script src="js/scripts.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h2>Function em JavaScript</h2>
+			<h3>Somar 2 números(valores fixos)</h3>
+			<button onclick="somar1()">somar 1</button>
+			<hr>
+			<h3>Somar 2 números(usuarios informa os valores com promp)</h3>
+			<button onclick="somar2()">somar 2</button>
+			<hr>
+			<h3>Mostrar o texto informado no input</h3>
+			<input type="text" id="texto">
+			<button onclick="mostrarTexto()">Mostrar Texto</button>
+			<hr>
+			<h3>Mostrar o texto informado no input</h3>
+			<input type="text" id="nome">
+			<button onclick="mostrarNome(nome)">Mostrar Nome</button>
+			<button onclick="popupGoogle()">Google</button>
+			<hr>
+			<h2>Manipulando o HTML com JavaScript</h2>
+			<p id="dataHora">
+				<button onclick="verDataHora()">Hora e Data</button>
+			</p>
+			<!-- Âncoras -->
+
+			<hr>
+			<p id="p1" onclick="mudarTexto()">
+				Este texto será modificado por JavaScript
+			</p>
+			<hr>	
+			<p id="px">Texto padrão do P</p>
+			<button onclick="mudarParagrafo()">Manipular P</button>
+			<div id="div">Texto da DIV</div>
+			<hr>
+			<p>
+				<img class="img-teste" src="img/ceu.jpg" id="p2" onclick="mudarImagem()">
+			</p>
+			<hr>
+			<p>
+				<img class="img-teste" src="img/ceu.jpg" id="p3" onclick="mudarBorda()">
+			</p>
+
+		</div>
+	</body>
+</html>
